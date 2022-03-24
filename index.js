@@ -5,3 +5,6 @@ function getHand()
 }
 let hand = getHand();
 console.log(hand);
+
+I don't understand any of this but apparently that doesn't really Matter.
+At least it wasn't too easy :)
