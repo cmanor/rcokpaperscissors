@@ -70,17 +70,4 @@ function Playgame (p1, p2, playUntil)
     }
   } while (p1.w < playUntil && p2.w < playUntil);
 }
-
-// function testResult(p1h, p2h)
-// {
-//     if (p1h===p2h)
-//     {
-//         console.log("it's a tie!");
-//     } else if ((p1h == r && p2h == s) || (p1h == p && p2h == r) || (p1h == s && p2h == r)){
-//         console.log("Player 1 win!");
-//     } else {
-//         console.log("Player 2 won " + playUntil " games!")
-//     }
-// }
-
 Playgame(p1, p2, 5);
